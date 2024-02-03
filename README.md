@@ -8,12 +8,13 @@ git clone https://github.com/verma-kunal/AWS-Session.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
-DOMAIN= ""
+DOMAIN="http://localhost:3000"
 PORT=3000
 STATIC_DIR="./client"
 
-PUBLISHABLE_KEY=""
-SECRET_KEY=""
+# Stripe API keys
+PUBLISHABLE_KEY="pk_test_51L5ASSSCC8JVWfvgEtfJkzHMTh7Z5PLY5m1yhR379sJgwAVZEe13NaiG33wsHSyHnPJMjTNOosiPk6AeMI8q0ims0049IKffiu"
+SECRET_KEY="sk_test_51L5ASSSCC8JVWfvgxpyZvQyBRRKHMGBkdyIa94vPD3Zs71qbHGrnSPLrJ0IW1R74fbcn1A85уESCFnrrp3aX002900JaunHrhe"
 ```
 3. Initialise and start the project
 ```
@@ -52,12 +53,13 @@ git clone https://github.com/verma-kunal/AWS-Session.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
-DOMAIN= ""
+DOMAIN="http://localhost:3000"
 PORT=3000
 STATIC_DIR="./client"
 
-PUBLISHABLE_KEY=""
-SECRET_KEY=""
+# Stripe API keys
+PUBLISHABLE_KEY="pk_test_51L5ASSSCC8JVWfvgEtfJkzHMTh7Z5PLY5m1yhR379sJgwAVZEe13NaiG33wsHSyHnPJMjTNOosiPk6AeMI8q0ims0049IKffiu"
+SECRET_KEY="sk_test_51L5ASSSCC8JVWfvgxpyZvQyBRRKHMGBkdyIa94vPD3Zs71qbHGrnSPLrJ0IW1R74fbcn1A85уESCFnrrp3aX002900JaunHrhe"
 ```
 > For this project, we'll have to set up an [Elastic IP Address](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) for our EC2 & that would be our `DOMAIN`
 
