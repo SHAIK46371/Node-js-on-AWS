@@ -1,4 +1,5 @@
 # Deploying a Node Js Application on AWS EC2
+## For this Node JS Application we have to setup the environment variables either locally or in EC2 instance.Then ony it will work 
 
 ### Testing the project locally
 
